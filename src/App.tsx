@@ -44,6 +44,7 @@ const App = () => (
               <Route path="/" element={<ProtectedRoute><DashboardLayout /></ProtectedRoute>}>
                 <Route index element={<Home />} />
                 <Route path="scan" element={<ScanFiles />} />
+                <Route path="search" element={<SmartSearch />} />
                 <Route path="files" element={<AllFiles />} />
                 <Route path="favorites" element={<Favorites />} />
                 <Route path="recent" element={<Recent />} />
