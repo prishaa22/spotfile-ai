@@ -8,7 +8,7 @@ import { AppProvider } from "@/context/AppContext";
 import DashboardLayout from "@/components/DashboardLayout";
 import Auth from "@/pages/Auth";
 import Home from "@/pages/Home";
-import SmartSearch from "@/pages/SmartSearch";
+import ScanFiles from "@/pages/ScanFiles";
 import AllFiles from "@/pages/AllFiles";
 import Favorites from "@/pages/Favorites";
 import Recent from "@/pages/Recent";
