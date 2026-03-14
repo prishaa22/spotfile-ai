@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { Home, Search, FolderOpen, Star, Clock, ScanFace, Settings, Brain, Shield, LogOut, ChevronLeft, ChevronRight } from "lucide-react";
+import { Home, ScanLine, FolderOpen, Star, Clock, ScanFace, Settings, Brain, Shield, LogOut, ChevronLeft, ChevronRight } from "lucide-react";
 import { useState } from "react";
 import { useAuth } from "@/context/AuthContext";
 import { motion, AnimatePresence } from "framer-motion";
