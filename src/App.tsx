@@ -8,7 +8,7 @@ import { AppProvider } from "@/context/AppContext";
 import DashboardLayout from "@/components/DashboardLayout";
 import Auth from "@/pages/Auth";
 import Home from "@/pages/Home";
-import SmartSearch from "@/pages/SmartSearch";
+import ScanFiles from "@/pages/ScanFiles";
 import AllFiles from "@/pages/AllFiles";
 import Favorites from "@/pages/Favorites";
 import Recent from "@/pages/Recent";
@@ -42,7 +42,7 @@ const App = () => (
               <Route path="/auth" element={<AuthRoute />} />
               <Route path="/" element={<ProtectedRoute><DashboardLayout /></ProtectedRoute>}>
                 <Route index element={<Home />} />
-                <Route path="search" element={<SmartSearch />} />
+                <Route path="scan" element={<ScanFiles />} />
                 <Route path="files" element={<AllFiles />} />
                 <Route path="favorites" element={<Favorites />} />
                 <Route path="recent" element={<Recent />} />

@@ -1,12 +1,13 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { Home, Search, FolderOpen, Star, Clock, ScanFace, Settings, Brain, Shield, LogOut, ChevronLeft, ChevronRight } from "lucide-react";
+import { Home, ScanLine, FolderOpen, Star, Clock, ScanFace, Settings, Brain, Shield, LogOut, ChevronLeft, ChevronRight } from "lucide-react";
 import { useState } from "react";
 import { useAuth } from "@/context/AuthContext";
 import { motion, AnimatePresence } from "framer-motion";
 
 const navItems = [
   { to: "/", icon: Home, label: "Home" },
+  { to: "/scan", icon: ScanLine, label: "Scan Files" },
   { to: "/files", icon: FolderOpen, label: "All Files" },
   { to: "/favorites", icon: Star, label: "Favorites" },
   { to: "/recent", icon: Clock, label: "Recent" },
