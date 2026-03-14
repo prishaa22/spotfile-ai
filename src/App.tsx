@@ -9,6 +9,7 @@ import DashboardLayout from "@/components/DashboardLayout";
 import Auth from "@/pages/Auth";
 import Home from "@/pages/Home";
 import ScanFiles from "@/pages/ScanFiles";
+import SmartSearch from "@/pages/SmartSearch";
 import AllFiles from "@/pages/AllFiles";
 import Favorites from "@/pages/Favorites";
 import Recent from "@/pages/Recent";
