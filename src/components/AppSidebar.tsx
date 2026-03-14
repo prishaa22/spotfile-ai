@@ -7,6 +7,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const navItems = [
   { to: "/", icon: Home, label: "Home" },
+  { to: "/scan", icon: ScanLine, label: "Scan Files" },
   { to: "/files", icon: FolderOpen, label: "All Files" },
   { to: "/favorites", icon: Star, label: "Favorites" },
   { to: "/recent", icon: Clock, label: "Recent" },

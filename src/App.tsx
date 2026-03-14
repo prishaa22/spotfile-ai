@@ -42,7 +42,7 @@ const App = () => (
               <Route path="/auth" element={<AuthRoute />} />
               <Route path="/" element={<ProtectedRoute><DashboardLayout /></ProtectedRoute>}>
                 <Route index element={<Home />} />
-                <Route path="search" element={<SmartSearch />} />
+                <Route path="scan" element={<ScanFiles />} />
                 <Route path="files" element={<AllFiles />} />
                 <Route path="favorites" element={<Favorites />} />
                 <Route path="recent" element={<Recent />} />
